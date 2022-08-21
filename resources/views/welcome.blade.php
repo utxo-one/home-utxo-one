@@ -30,8 +30,8 @@
                             </div>
                           </div>
                           <div class="px-8 pb-4">
-                            <h4 class="text-gray-500 text-sm font-light">Source Code Hosting</h4>
-                            <h2 class="text-orange-500 text-xl font-bold font-mono">Private Gitlab lol</h2>
+                            <h4 class="text-gray-500 text-sm font-light">For Beginners</h4>
+                            <h2 class="text-orange-500 text-xl font-bold font-mono">Bitcoin: Getting Started</h2>
                             <p class="text-gray-100 text-xs">
                               Enjoy censorship resistant source code hosting that isn't scraped by AI or censored by government. Available to anyone and made for bitcoiners.
                             </p>
