@@ -127,8 +127,8 @@
                             </div>
                           </div>
                           <div class="px-8 pb-4">
-                            <h4 class="text-gray-500 text-sm font-light">Free Online Report</h4>
-                            <h2 class="text-orange-500 text-xl font-bold font-mono">BTCPayServer Setup</h2>
+                            <h4 class="text-gray-500 text-sm font-light">Managed Services/h4>
+                            <h2 class="text-orange-500 text-xl font-bold font-mono">BTCPayServer Management</h2>
                             <p class="text-gray-100 text-xs">
                               Want to accept bitcoin payments at your business but can't figure out how to setup BTCPayServer? We'll set everything up and train you on how to use it.
                             </p>
@@ -150,10 +150,10 @@
                             </div>
                           </div>
                           <div class="px-8 pb-4">
-                            <h4 class="text-gray-500 text-sm font-light">Neutral 3rd party</h4>
+                            <h4 class="text-gray-500 text-sm font-light">Offline Storage</h4>
                             <h2 class="text-orange-500 text-xl font-bold font-mono">Multisig Custodian</h2>
                             <p class="text-gray-100 text-xs">
-                              If you want to setup multisig, or if two parties would like a neutral, independent third party to hold additional keys in a multisig wallet, we can help.
+                              We store extra keys offline for you with end to end encryption. We cannot see your keys, only you can decrypt them with a password. 
                             </p>
                           </div>
                         </div>
