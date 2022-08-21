@@ -127,7 +127,7 @@
                             </div>
                           </div>
                           <div class="px-8 pb-4">
-                            <h4 class="text-gray-500 text-sm font-light">Managed Services/h4>
+                            <h4 class="text-gray-500 text-sm font-light">Managed Services</h4>
                             <h2 class="text-orange-500 text-xl font-bold font-mono">BTCPayServer Management</h2>
                             <p class="text-gray-100 text-xs">
                               Want to accept bitcoin payments at your business but can't figure out how to setup BTCPayServer? We'll set everything up and train you on how to use it.
