@@ -33,7 +33,7 @@
                             <h4 class="text-gray-500 text-sm font-light">For Beginners</h4>
                             <h2 class="text-orange-500 text-xl font-bold font-mono">Bitcoin: Getting Started</h2>
                             <p class="text-gray-100 text-xs">
-                              Enjoy censorship resistant source code hosting that isn't scraped by AI or censored by government. Available to anyone and made for bitcoiners.
+                              A simple, step by step guide to get you started with Bitcoin. Learn how to exchange fiat for bitcoin and how to securely store your bitcoin with an offline signing device.
                             </p>
                           </div>
                         </div>
