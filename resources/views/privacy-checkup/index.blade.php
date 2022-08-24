@@ -42,25 +42,25 @@
                     </p>
                     <div class="pb-2 pl-10">
                         <label>
-                            <input type="radio" name="email" value="0" @if(old('email') == 0) checked @endif>
+                            <input type="radio" name="email" value="0" @if(old('email') === "0") checked @endif>
                             <span class="text-gray-100 text-md lg:text-lg">Gmail/Outlook/Other Big Tech</span>
                         </label>
                     </div>
                     <div class="pb-2 pl-10">
                         <label>
-                            <input type="radio" name="email" value="1" @if(old('email') == 1) checked @endif>
+                            <input type="radio" name="email" value="1" @if(old('email') === "1") checked @endif>
                             <span class="text-gray-100 text-md lg:text-lg">Proton/Tutanota/Other Privacy</span>
                         </label>
                     </div>
                     <div class="pb-2 pl-10">
                         <label>
-                            <input type="radio" name="email" value="2" @if(old('email') == 2) checked @endif>
+                            <input type="radio" name="email" value="2" @if(old('email') === "2") checked @endif>
                             <span class="text-gray-100 text-md lg:text-lg">Self Hosted</span>
                         </label>
                     </div>
                     <div class="pb-2 pl-10">
                         <label>
-                            <input type="radio" name="email" value="3" @if(old('email') == 3) checked @endif>
+                            <input type="radio" name="email" value="3" @if(old('email') === "3") checked @endif>
                             <span class="text-gray-100 text-md lg:text-lg">I do not use email</span>
                         </label>
                     </div>
@@ -78,27 +78,27 @@
                 </p>
                 <div class="pb-2 pl-10">
                     <label>
-                        <input type="radio" name="vpn" value="2" @if(old('vpn') == 2) checked @endif>
+                        <input type="radio" name="vpn" value="2" @if(old('vpn') === "2") checked @endif>
                         <span class="text-gray-100 text-md lg:text-lg">I use a VPN at all times on all
                             devices.</span>
                     </label>
                 </div>
                 <div class="pb-2 pl-10">
                     <label>
-                        <input type="radio" name="vpn" value="1" @if(old('vpn') == 1) checked @endif>
+                        <input type="radio" name="vpn" value="1" @if(old('vpn') === "1") checked @endif>
                         <span class="text-gray-100 text-md lg:text-lg">I use VPNs when I want extra
                             privacy</span>
                     </label>
                 </div>
                 <div class="pb-2 pl-10">
                     <label>
-                        <input type="radio" name="vpn" value="0" @if(old('vpn') == 0) checked @endif>
+                        <input type="radio" name="vpn" value="0" @if(old('vpn') === "0") checked @endif>
                         <span class="text-gray-100 text-md lg:text-lg">I do not use a VPN</span>
                     </label>
                 </div>
                 <div class="pb-2 pl-10">
                     <label>
-                        <input type="radio" name="vpn" value="3" @if(old('vpn') == 3) checked @endif>
+                        <input type="radio" name="vpn" value="3" @if(old('vpn') === "3") checked @endif>
                         <span class="text-gray-100 text-md lg:text-lg">I have no devices</span>
                     </label>
                 </div>
@@ -116,27 +116,27 @@
                 </p>
                 <div class="pb-2 pl-10">
                     <label>
-                        <input type="radio" name="data" value="0" @if(old('data') == 0) checked @endif>
+                        <input type="radio" name="data" value="0" @if(old('data') === "0") checked @endif>
                         <span class="text-gray-100 text-md lg:text-lg">cloud storage (google drive/onedrive
                             etc)</span>
                     </label>
                 </div>
                 <div class="pb-2 pl-10">
                     <label>
-                        <input type="radio" name="data" value="1" @if(old('data') == 0) checked @endif>
+                        <input type="radio" name="data" value="1" @if(old('data') === "1") checked @endif>
                         <span class="text-gray-100 text-md lg:text-lg">local PC/hard drive/phone</span>
                     </label>
                 </div>
                 <div class="pb-2 pl-10">
                     <label>
-                        <input type="radio" name="data" value="2" @if(old('data') == 0) checked @endif>
+                        <input type="radio" name="data" value="2" @if(old('data') === "2") checked @endif>
                         <span class="text-gray-100 text-md lg:text-lg">on paper, CD, other offline media in a
                             safe</span>
                     </label>
                 </div>
                 <div class="pb-2 pl-10">
                     <label>
-                        <input type="radio" name="data" value="3" @if(old('data') == 0) checked @endif>
+                        <input type="radio" name="data" value="3" @if(old('data') === "3") checked @endif>
                         <span class="text-gray-100 text-md lg:text-lg">I store no data and remember only what I
                             need</span>
                     </label>
@@ -155,26 +155,26 @@
                 </p>
                 <div class="pb-2 pl-10">
                     <label>
-                        <input type="radio" name="bitcoin" value="0" @if(old('bitcoin') == 0) checked @endif>
+                        <input type="radio" name="bitcoin" value="0" @if(old('bitcoin') === "0") checked @endif>
                         <span class="text-gray-100 text-md lg:text-lg">My stack is KYC'd and I never use
                             mixers</span>
                     </label>
                 </div>
                 <div class="pb-2 pl-10">
                     <label>
-                        <input type="radio" name="bitcoin" value="1" @if(old('bitcoin') == 0) checked @endif>
+                        <input type="radio" name="bitcoin" value="1" @if(old('bitcoin') === "1") checked @endif>
                         <span class="text-gray-100 text-md lg:text-lg">My stack is non-KYC</span>
                     </label>
                 </div>
                 <div class="pb-2 pl-10">
                     <label>
-                        <input type="radio" name="bitcoin" value="2" @if(old('bitcoin') == 0) checked @endif>
+                        <input type="radio" name="bitcoin" value="2" @if(old('bitcoin') === "2") checked @endif>
                         <span class="text-gray-100 text-md lg:text-lg">My stack is mixed</span>
                     </label>
                 </div>
                 <div class="pb-2 pl-10">
                     <label>
-                        <input type="radio" name="bitcoin" value="3" @if(old('bitcoin') == 0) checked @endif>
+                        <input type="radio" name="bitcoin" value="3" @if(old('bitcoin') === "3") checked @endif>
                         <span class="text-gray-100 text-md lg:text-lg">I do not use bitcoin</span>
                     </label>
                 </div>
@@ -192,28 +192,28 @@
                 </p>
                 <div class="pb-2 pl-10">
                     <label>
-                        <input type="radio" name="accounts" value="0" @if(old('accounts') == 0) checked @endif>
+                        <input type="radio" name="accounts" value="0" @if(old('accounts') === "0") checked @endif>
                         <span class="text-gray-100 text-md lg:text-lg">I use the same email and password for
                             everything</span>
                     </label>
                 </div>
                 <div class="pb-2 pl-10">
                     <label>
-                        <input type="radio" name="accounts" value="1" @if(old('accounts') == 0) checked @endif>
+                        <input type="radio" name="accounts" value="1" @if(old('accounts') === "1") checked @endif>
                         <span class="text-gray-100 text-md lg:text-lg">I use the same email, but different
                             passwords</span>
                     </label>
                 </div>
                 <div class="pb-2 pl-10">
                     <label>
-                        <input type="radio" name="accounts" value="2" @if(old('accounts') == 0) checked @endif>
+                        <input type="radio" name="accounts" value="2" @if(old('accounts') === "2") checked @endif>
                         <span class="text-gray-100 text-md lg:text-lg">I use different emails and passwords for
                             every account</span>
                     </label>
                 </div>
                 <div class="pb-2 pl-10">
                     <label>
-                        <input type="radio" name="accounts" value="3" @if(old('accounts') == 0) checked @endif>
+                        <input type="radio" name="accounts" value="3" @if(old('accounts') === "3") checked @endif>
                         <span class="text-gray-100 text-md lg:text-lg">I do not have any online accounts</span>
                     </label>
                 </div>
@@ -231,25 +231,25 @@
                 </p>
                 <div class="pb-2 pl-10">
                     <label>
-                        <input type="radio" name="mobile" value="0" @if(old('mobile') == 0) checked @endif>
+                        <input type="radio" name="mobile" value="0" @if(old('mobile') === "0") checked @endif>
                         <span class="text-gray-100 text-md lg:text-lg">Android</span>
                     </label>
                 </div>
                 <div class="pb-2 pl-10">
                     <label>
-                        <input type="radio" name="mobile" value="1" @if(old('mobile') == 0) checked @endif>
+                        <input type="radio" name="mobile" value="1" @if(old('mobile') === "1") checked @endif>
                         <span class="text-gray-100 text-md lg:text-lg">iOS</span>
                     </label>
                 </div>
                 <div class="pb-2 pl-10">
                     <label>
-                        <input type="radio" name="mobile" value="2" @if(old('mobile') == 0) checked @endif>
+                        <input type="radio" name="mobile" value="2" @if(old('mobile') === "2") checked @endif>
                         <span class="text-gray-100 text-md lg:text-lg">Privacy OS (Calyx, Graphene)</span>
                     </label>
                 </div>
                 <div class="pb-2 pl-10">
                     <label>
-                        <input type="radio" name="mobile" value="3" @if(old('mobile') == 0) checked @endif>
+                        <input type="radio" name="mobile" value="3" @if(old('mobile') === "3") checked @endif>
                         <span class="text-gray-100 text-md lg:text-lg">I do not use a mobile phone.</span>
                     </label>
                 </div>
@@ -267,25 +267,25 @@
                 </p>
                 <div class="pb-2 pl-10">
                     <label>
-                        <input type="radio" name="computer" value="0" @if(old('computer') == 0) checked @endif>
+                        <input type="radio" name="computer" value="0" @if(old('computer') === "0") checked @endif>
                         <span class="text-gray-100 text-md lg:text-lg">Windows</span>
                     </label>
                 </div>
                 <div class="pb-2 pl-10">
                     <label>
-                        <input type="radio" name="computer" value="1" @if(old('computer') == 0) checked @endif>
+                        <input type="radio" name="computer" value="1" @if(old('computer') === "1") checked @endif>
                         <span class="text-gray-100 text-md lg:text-lg">MacOS</span>
                     </label>
                 </div>
                 <div class="pb-2 pl-10">
                     <label>
-                        <input type="radio" name="computer" value="2" @if(old('computer') == 0) checked @endif>
+                        <input type="radio" name="computer" value="2" @if(old('computer') === "2") checked @endif>
                         <span class="text-gray-100 text-md lg:text-lg">Linux</span>
                     </label>
                 </div>
                 <div class="pb-2 pl-10">
                     <label>
-                        <input type="radio" name="computer" value="3" @if(old('computer') == 0) checked @endif>
+                        <input type="radio" name="computer" value="3" @if(old('computer') === "3") checked @endif>
                         <span class="text-gray-100 text-md lg:text-lg">I do not use a computer.</span>
                     </label>
                 </div>
@@ -303,28 +303,28 @@
                 </p>
                 <div class="pb-2 pl-10">
                     <label>
-                        <input type="radio" name="amazon" value="0" @if(old('amazon') == 0) checked @endif>
+                        <input type="radio" name="amazon" value="0" @if(old('amazon') === "0") checked @endif>
                         <span class="text-gray-100 text-md lg:text-lg">Use real name, address, credit
                             card</span>
                     </label>
                 </div>
                 <div class="pb-2 pl-10">
                     <label>
-                        <input type="radio" name="amazon" value="1" @if(old('amazon') == 0) checked @endif>
+                        <input type="radio" name="amazon" value="1" @if(old('amazon') === "1") checked @endif>
                         <span class="text-gray-100 text-md lg:text-lg">Use fake name, but real credit card and
                             address</span>
                     </label>
                 </div>
                 <div class="pb-2 pl-10">
                     <label>
-                        <input type="radio" name="amazon" value="2" @if(old('amazon') == 0) checked @endif>
+                        <input type="radio" name="amazon" value="2" @if(old('amazon') === "2") checked @endif>
                         <span class="text-gray-100 text-md lg:text-lg">Use fake name, gift cards and pickup
                             locations</span>
                     </label>
                 </div>
                 <div class="pb-2 pl-10">
                     <label>
-                        <input type="radio" name="amazon" value="3" @if(old('amazon') == 0) checked @endif>
+                        <input type="radio" name="amazon" value="3" @if(old('amazon') === "3") checked @endif>
                         <span class="text-gray-100 text-md lg:text-lg">I do not shop on Amazon</span>
                     </label>
                 </div>
@@ -342,28 +342,28 @@
                 </p>
                 <div class="pb-2 pl-10">
                     <label>
-                        <input type="radio" name="social" value="0" @if(old('social') == 0) checked @endif>
+                        <input type="radio" name="social" value="0" @if(old('social') === "0") checked @endif>
                         <span class="text-gray-100 text-md lg:text-lg">Use my real name on multiple
                             platforms</span>
                     </label>
                 </div>
                 <div class="pb-2 pl-10">
                     <label>
-                        <input type="radio" name="social" value="1" @if(old('social') == 0) checked @endif>
+                        <input type="radio" name="social" value="1" @if(old('social') === "1") checked @endif>
                         <span class="text-gray-100 text-md lg:text-lg">Use my real name but only friends can
                             see me</span>
                     </label>
                 </div>
                 <div class="pb-2 pl-10">
                     <label>
-                        <input type="radio" name="social" value="2" @if(old('social') == 0) checked @endif>
+                        <input type="radio" name="social" value="2" @if(old('social') === "2") checked @endif>
                         <span class="text-gray-100 text-md lg:text-lg">Use fake name not connected to my real
                             identity</span>
                     </label>
                 </div>
                 <div class="pb-2 pl-10">
                     <label>
-                        <input type="radio" name="social" value="3" @if(old('social') == 0) checked @endif>
+                        <input type="radio" name="social" value="3" @if(old('social') === "3") checked @endif>
                         <span class="text-gray-100 text-md lg:text-lg">I do not use social media</span>
                     </label>
                 </div>
@@ -381,26 +381,26 @@
                 </p>
                 <div class="pb-2 pl-10">
                     <label>
-                        <input type="radio" name="search" value="0" @if(old('search') == 0) checked @endif>
+                        <input type="radio" name="search" value="0" @if(old('search') === "0") checked @endif>
                         <span class="text-gray-100 text-md lg:text-lg">Google for everything</span>
                     </label>
                 </div>
                 <div class="pb-2 pl-10">
                     <label>
-                        <input type="radio" name="search" value="1" @if(old('search') == 0) checked @endif>
+                        <input type="radio" name="search" value="1" @if(old('search') === "1") checked @endif>
                         <span class="text-gray-100 text-md lg:text-lg">Google for most things, privacy searches
                             for sensitive searches</span>
                     </label>
                 </div>
                 <div class="pb-2 pl-10">
                     <label>
-                        <input type="radio" name="search" value="2" @if(old('search') == 0) checked @endif>
+                        <input type="radio" name="search" value="2" @if(old('search') === "2") checked @endif>
                         <span class="text-gray-100 text-md lg:text-lg">I only use privacy searches</span>
                     </label>
                 </div>
                 <div class="pb-2 pl-10">
                     <label>
-                        <input type="radio" name="search" value="3" @if(old('search') == 0) checked @endif>
+                        <input type="radio" name="search" value="3" @if(old('search') === "3") checked @endif>
                         <span class="text-gray-100 text-md lg:text-lg">I never perform any internet
                             searches</span>
                     </label>
