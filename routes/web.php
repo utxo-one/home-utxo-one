@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\PrivacyCheckupController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +17,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/privacy', [PrivacyCheckupController::class, 'index'])->name('privacy-checkup.index');
+Route::post('/privacy', [PrivacyCheckupController::class, 'show'])->name('privacy-checkup.show');

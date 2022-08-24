@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>utxo.one ~ bitcoin | privacy | sovereignty</title>
 
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
@@ -127,7 +127,7 @@
                             </div>
                           </div>
                           <div class="px-8 pb-4">
-                            <h4 class="text-gray-500 text-sm font-light">Managed Services</h4>
+                            <h4 class="text-gray-500 text-sm font-light">Managed Servicesss</h4>
                             <h2 class="text-orange-500 text-xl font-bold font-mono">BTCPayServer Management</h2>
                             <p class="text-gray-100 text-xs">
                               Want to accept bitcoin payments at your business but can't figure out how to setup BTCPayServer? We'll set everything up and train you on how to use it.
